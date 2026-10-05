@@ -6,3 +6,7 @@
 @media(max-height:760px) and (min-width:701px){.topbar{height:66px}.bottom-dock{height:72px}.scene-heading h1{font-size:48px}.panel-content{padding-top:20px}.scene-heading{top:25px}.scene-tags{display:none}.footer{height:27px}.panel-title{margin-bottom:15px}.panel-title h2{font-size:22px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
 .system-directory{position:absolute;left:29px;top:224px;width:218px;padding:13px;background:#101a21e8;border:1px solid #ffffff17;backdrop-filter:blur(14px);max-height:calc(100% - 350px);overflow:auto;z-index:3;scrollbar-width:thin}.system-directory>small{font-size:7px;letter-spacing:1.4px;color:#7a8f9d;display:block;margin-bottom:8px}.system-directory button{display:flex;align-items:center;gap:9px;width:100%;padding:9px 1px;border-bottom:1px solid #ffffff09;font-size:9px;text-align:left;color:#c0cbd1}.system-directory button>span{font-size:7px;color:var(--accent)}.system-directory button svg{margin-left:auto;color:#6f8493}@media(max-width:700px){.system-directory{left:20px;top:178px;width:190px;max-height:calc(100% - 315px)}}
+
+/* Accessible hit areas follow the three glass tiles on the physical screen. */
+.screen-creator-link{position:absolute;transform:translate(-50%,-50%);z-index:2;display:none;color:transparent;font-size:0;border-radius:6px;cursor:pointer;}
+.screen-creator-link:hover,.screen-creator-link:focus-visible{outline:2px solid #bceaff;box-shadow:0 0 12px #a7e6ff66;}
